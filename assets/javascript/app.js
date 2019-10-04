@@ -37,15 +37,15 @@ quizQuestions = [
 ];
 
 winImg = [
-    "C:/Users/david/KU-Bootcamp-Work/Homework/TriviaGame/assets/images/giphy (1).gif",
-    "C:/Users/david/KU-Bootcamp-Work/Homework/TriviaGame/assets/images/giphy (2).gif",
-    "C:/Users/david/KU-Bootcamp-Work/Homework/TriviaGame/assets/images/giphy (5).gif"
+    "assets/images/giphy (1).gif",
+    "assets/images/giphy (2).gif",
+    "assets/images/giphy (5).gif"
 ];
 
 lossImg = [
-    "C:/Users/david/KU-Bootcamp-Work/Homework/TriviaGame/assets/images/giphy (3).gif",
-    "C:/Users/david/KU-Bootcamp-Work/Homework/TriviaGame/assets/images/giphy (4).gif",
-    "C:/Users/david/KU-Bootcamp-Work/Homework/TriviaGame/assets/images/giphy (6).gif"
+    "assets/images/giphy (3).gif",
+    "assets/images/giphy (4).gif",
+    "assets/images/giphy (6).gif"
 ];
 
 var counter = 30;
@@ -62,7 +62,7 @@ function nextQuestion() {
         <p>You got ${loss} question(s) wrong!</p>
         <p>You got ${score} question(s) right!</p>
         <p>Total Questions: ${quizQuestions.length}</p>
-        <img src="C:/Users/david/KU-Bootcamp-Work/Homework/TriviaGame/assets/images/giphy (7).gif">
+        <img src="assets/images/giphy (7).gif">
         <br>
         <p>Thank you for subcribing to cat facts.</P>
         <button id="resetBtn">Reset Game</button>
