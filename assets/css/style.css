@@ -1,0 +1,40 @@
+body {
+    background-image: url("C:/Users/david/KU-Bootcamp-Work/Homework/TriviaGame/assets/images/giphy.gif");
+}
+
+#intro {
+    text-align: center;
+}
+
+#start {
+    display: inline-block;
+    position: absolute;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.choice {
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container {
+    width: 80%;
+    height: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: antiquewhite;
+}
+
+#questions {
+    width: 75%;
+    margin: auto;
+}
+
+#timer {
+    width: 75%;
+    margin: auto;
+    font-weight: bold;
+}
